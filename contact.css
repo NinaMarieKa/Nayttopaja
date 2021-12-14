@@ -68,7 +68,7 @@ header nimi {
 
 .welcome form{
   text-align: left;
-  padding-left: 30px;
+  padding-left: 50px;
   font-size: 18px;
 }
 
@@ -86,14 +86,16 @@ header nimi {
   margin-top: 15px;
 }
 
-#contact radio {
+#contact input.radio {
   display: inline-block;
+  height: 15px;
+
 }
 
-#contact input{
+#contact input {
   padding: 4px;
-  height: 20px;
-  width: 250px;
+  height: 35px;
+  width: 270px;
 }
 
 button {
