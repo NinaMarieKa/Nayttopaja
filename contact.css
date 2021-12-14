@@ -86,16 +86,17 @@ header nimi {
   margin-top: 15px;
 }
 
-#contact input.radio {
-  display: inline-block;
-  height: 15px;
 
+#name {
+  width: 320px;
+  height: 35px;
+  margin-bottom: 25px;
 }
 
-#contact input {
-  padding: 4px;
+#email {
+  width: 320px;
   height: 35px;
-  width: 270px;
+  margin-bottom: 25px;
 }
 
 button {

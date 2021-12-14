@@ -70,7 +70,7 @@ header nimi {
   float:left;
   text-align: left;
   font-style: italic;
-  padding-left: 30px;
+  padding-left: 70px;
   max-width: 400px;
 }
 
@@ -78,7 +78,7 @@ header nimi {
   float:right;
   text-align: left;
   font-style: italic;
-  padding-right: 30px;
+  padding-right: 70px;
 }
 
 .welcome h1{
@@ -96,7 +96,7 @@ header nimi {
   position: absolute;
   text-align: left;
   font-style: italic;
-  padding-left: 30px;
+  padding-left: 70px;
   max-width: 400px;
 
 }
