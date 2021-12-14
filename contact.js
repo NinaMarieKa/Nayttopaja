@@ -8,13 +8,13 @@ var viesti = document.forms["form"]["msg"];
 
 // nimi-kentän tarkistus
     if (nimi.value == "") {
-        window.alert("Please enter your name");
+        alert("Please enter your name");
         nimi.focus();
         return false;
     }
 // sähköpostikentän tarkistus
  if (email.value == "") {
-        window.alert("Please enter a valid email address");
+        alert("Please enter a valid email address");
         email.focus();
         return false;
     }
@@ -34,12 +34,6 @@ function ValidateEmail(email){
     document.form.email.focus();
   return true;
 }
-  else if(email.value == "") {
-    window.alert("Please enter a valid email address");
-    email.focus();
-    return false;
-
-  }
   else {
   alert("You have entered an invalid email address");
   document.form.email.focus();
