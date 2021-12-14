@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding:0;
+  margin:0;
+  background-color: rgb(129, 138, 163);
+}
+
+ul {
+  margin:0;
+  padding:0;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nimi {
+  float: left;
+}
+
+
+ .head {
+   margin: 0;
+   padding: 0;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  background-image: linear-gradient(
+       to right,
+       rgb(116, 140, 171) 0%,
+       rgb(62, 92, 118) 50%,
+       rgb(29, 45, 68) 100%
+     );
+}
+
+.head h1 {
+  padding-top: 20px;
+}
+
+.head nav {
+  padding-bottom: 10px;
+}
+
+.welcome {
+  background: url(./pics/street.jpg);
+  min-height: 800px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.welcome h1 {
+  padding-top: 30px;
+}
+
+.welcome form{
+  text-align: left;
+  padding-left: 30px;
+}
+
+.welcome input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.welcome textarea {
+  margin-top: 5px;
+}
+
+
+
+#contact form {
+  margin-top: 15px;
+}
+
+#contact radio {
+  display: inline-block;
+}
+
+#contact input{
+  padding: 4px;
+  height: 20px;
+  width: 250px;
+}
+
+button {
+
+}
+
+
+
+}
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(116, 140, 171) 0%,
+    rgb(62, 92, 118) 50%,
+    rgb(29, 45, 68) 100%
+    );
+    text-align: center;
+
+}
