@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding:0;
+  margin:0;
+  background-color: rgb(129, 138, 163);
+}
+
+ul {
+  margin:0;
+  padding:0;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header nimi {
+  float: left;
+}
+
+
+ .head {
+   margin: 0;
+   padding: 0;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  background-image: linear-gradient(
+       to right,
+       rgb(116, 140, 171) 0%,
+       rgb(62, 92, 118) 50%,
+       rgb(29, 45, 68) 100%
+     );
+}
+
+.head h1 {
+  padding-top: 20px;
+}
+
+.head nav {
+  padding-bottom: 10px;
+}
+
+.welcome {
+  background: url(./pics/street.jpg);
+  min-height: 800px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.welcome h1 {
+  padding-top: 30px;
+}
+
+.welcome aside {
+  float:left;
+  text-align: left;
+  font-style: italic;
+  padding-left: 30px;
+  max-width: 400px;
+}
+
+ #second {
+   float:right;
+   text-align: left;
+   font-style: italic;
+   padding-right: 30px;
+}
+
+#aside {
+  margin-top: 180px;
+  position: absolute;
+  text-align: left;
+  font-style: italic;
+  padding-left: 30px;
+}
+
+.welcome h1{
+  font-size: 26px;
+  text-align: center;
+
+}
+
+.welcome p {
+  font-size: 18px;
+}
+
+#article {
+  margin-top: 140px;
+  position: absolute;
+  text-align: left;
+  font-style: italic;
+  padding-left: 30px;
+}
+
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(116, 140, 171) 0%,
+    rgb(62, 92, 118) 50%,
+    rgb(29, 45, 68) 100%
+    );
+    text-align: center;
+
+}

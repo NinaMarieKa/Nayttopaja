@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width="device-width">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+  </head>
+  <body>
+    <header>
+        <div class="head">
+          <div id="nimi">
+          <h1>Contact</h1>
+          </div>
+           <nav>
+            <ul>
+             <li><a href="default.html">Home</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="hobbies.html">Hobbies</a></li>
+             <li><a href="cv.html">CV</a></li>
+           </ul>
+          </nav>
+        </div>
+    </header>
+   <div class="welcome">
+   <section>
+     <h1>Do you want to contact us?</h1>
+     <p>To contact us, fill the contact form below</p>
+   </section>
+  <section id="contact">
+    <form id="form" action="isValid()" method="post">
+      <label for="name">Your name:<br>
+         <input type="text" name="name" id="name" placeholder="Enter name.." minlength="2" required>
+         </label><br>
+         <label for="email">Your email address:<br>
+         <input type="text" name="email" id="email" placeholder="Enter email.." required>
+         </label><br>
+         <div class="radiot">
+         <label for="reason"> My contact request is about:<br>
+         <label>Order
+         <input type="radio" name="radio" id="radio" value="order">
+         </label><br>
+         <label>Other
+         <input type="radio" name="radio" id="radioii" value="other">
+         </label></div>
+         <label for="textarea">Write your message here:<br>
+         <textarea name="msg" id="msg" rows="8" cols="80"></textarea><br>
+         <button type="submit" name="button" onclick="ValidateEmail(email)" class="button1">Submit</button>
+    </form>
+  </section>
+       </div>
+       <footer>
+         <p> Nina Kaunisvaara, Simsiki Mustafa, Jonathan Tecassala  &copy; 2021</p>
+       </footer>
+  </body>
+</html>

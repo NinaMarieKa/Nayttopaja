@@ -52,13 +52,13 @@ header nimi {
 }
 
 .welcome {
-  background: url(./pics/fog.jpg);
+  background: url(./pics/street.jpg);
   min-height: 800px;
   background-size: cover;
   background-position: center;
   text-align: center;
   color: white;
-  margin: 0;
+  margin-bottom: 0;
   overflow: hidden;
 }
 
@@ -66,40 +66,43 @@ header nimi {
   padding-top: 30px;
 }
 
-.welcome aside {
-  float:left;
+.welcome form{
   text-align: left;
-  font-style: italic;
-  padding-left: 30px;
-  max-width: 400px;
-}
-
- #second {
-  float:right;
-  text-align: left;
-  font-style: italic;
-  padding-right: 30px;
-}
-
-.welcome h1{
-  font-size: 26px;
-  text-align: center;
-
-}
-
-.welcome p {
+  padding-left: 50px;
   font-size: 18px;
 }
 
-#article {
-  margin-top: 160px;
-  position: absolute;
-  text-align: left;
-  font-style: italic;
-  padding-left: 30px;
-  max-width: 400px;
+.welcome input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.welcome textarea {
+  margin-top: 5px;
+}
+
+#contact form {
+  margin-top: 15px;
+}
+
+#contact input.radio {
+  display: inline-block;
+  height: 15px;
 
 }
+
+#contact input {
+  padding: 4px;
+  height: 35px;
+  width: 270px;
+}
+
+button {
+width: 100px;
+height: 40px;
+}
+
 footer {
   padding: 20px;
   margin-top: 20px;
