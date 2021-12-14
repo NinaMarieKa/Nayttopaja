@@ -5,6 +5,7 @@
     <meta name="viewport" width="device-width">
     <title>Contact</title>
     <link rel="stylesheet" href="contact.css">
+  <script src="contact.js"></script>
   </head>
   <body>
     <header>
@@ -35,17 +36,9 @@
          <label for="email">Your email address:<br>
          <input type="text" name="email" id="email" placeholder="Enter email.." required>
          </label><br>
-         <div class="radiot">
-         <label for="reason"> My contact request is about:<br>
-         <label>Order
-         <input type="radio" name="radio" id="radio" value="order">
-         </label><br>
-         <label>Other
-         <input type="radio" name="radio" id="radioii" value="other">
-         </label></div>
          <label for="textarea">Write your message here:<br>
          <textarea name="msg" id="msg" rows="8" cols="80"></textarea><br>
-         <button type="submit" name="button" onclick="ValidateEmail(email)" class="button1">Submit</button>
+         <button type="submit" name="button" onclick="ValidateEmail(this)" class="button1">Submit</button>
     </form>
   </section>
        </div>
