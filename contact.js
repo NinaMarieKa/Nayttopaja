@@ -18,7 +18,7 @@ var viesti = document.forms["form"]["msg"];
         email.focus();
         return false;
     }
-
+}
 // funktio, jolla tarkistetaan onko sähköposti oikesa
 function ValidateEmail(email){
 
