@@ -1,0 +1,27 @@
+.AboutHead {
+  border: 12px solid #333333;
+  width: 54%;
+  margin-top: auto;
+  margin: auto;
+  background-color: gray;
+  border-width: thick;
+  background-clip: padding-box;
+  border-style: ridge;
+  opacity: 0.5;
+}
+
+.HeadText {
+  color: white;
+}
+
+.AboutText {
+  background-image: url(Aboutpage.jpg);
+  background-size: auto;
+  margin: auto;
+  background-size: 100%;
+  height: 100%;
+  width: 100%;
+  position:static; left: 55; right: 55;
+  text-align: center;
+  bottom: auto;
+}
