@@ -69,18 +69,18 @@ header nimi {
 .welcome form{
   text-align: left;
   padding-left: 30px;
+  font-size: 18px;
 }
 
 .welcome input {
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
 }
 
 .welcome textarea {
   margin-top: 5px;
 }
-
-
 
 #contact form {
   margin-top: 15px;
@@ -97,11 +97,8 @@ header nimi {
 }
 
 button {
-
-}
-
-
-
+width: 100px;
+height: 40px;
 }
 
 footer {
