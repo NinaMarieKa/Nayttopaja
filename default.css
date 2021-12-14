@@ -71,6 +71,7 @@ header nimi {
   text-align: left;
   font-style: italic;
   padding-left: 30px;
+  max-width: 400px;
 }
 
  #second {
@@ -91,11 +92,13 @@ header nimi {
 }
 
 #article {
-  margin-top: 140px;
+  margin-top: 160px;
   position: absolute;
   text-align: left;
   font-style: italic;
   padding-left: 30px;
+  max-width: 400px;
+
 }
 footer {
   padding: 20px;

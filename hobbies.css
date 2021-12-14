@@ -71,13 +71,22 @@ header nimi {
   text-align: left;
   font-style: italic;
   padding-left: 30px;
+  max-width: 400px;
 }
 
  #second {
-  float:right;
+   float:right;
+   text-align: left;
+   font-style: italic;
+   padding-right: 30px;
+}
+
+#aside {
+  margin-top: 180px;
+  position: absolute;
   text-align: left;
   font-style: italic;
-  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .welcome h1{
@@ -97,6 +106,7 @@ header nimi {
   font-style: italic;
   padding-left: 30px;
 }
+
 
 footer {
   padding: 20px;
