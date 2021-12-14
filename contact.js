@@ -18,6 +18,12 @@ var viesti = document.forms["form"]["msg"];
         email.focus();
         return false;
     }
+
+    if(viesti.value =="") {
+      window.alert("The message box is empty")
+      viesti.focus();
+      return false;
+    }
 }
 // funktio, jolla tarkistetaan onko sähköposti oikesa
 function ValidateEmail(email){
