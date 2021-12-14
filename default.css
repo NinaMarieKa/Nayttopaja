@@ -58,7 +58,7 @@ header nimi {
   background-position: center;
   text-align: center;
   color: white;
-  margin: auto;
+  margin: 0;
   overflow: hidden;
 }
 
@@ -96,4 +96,17 @@ header nimi {
   text-align: left;
   font-style: italic;
   padding-left: 30px;
+}
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(116, 140, 171) 0%,
+    rgb(62, 92, 118) 50%,
+    rgb(29, 45, 68) 100%
+    );
+    text-align: center;
+
 }
