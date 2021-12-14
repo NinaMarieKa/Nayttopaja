@@ -72,9 +72,10 @@ header nimi {
 .AboutText {
 background-image: url(pics/barn.jpg);
 text-align: center;
-min-height: 800px;
+min-height: 900px;
 background-size: cover;
 background-position: center;
+bottom: 0;
 }
 
 .BigText {
