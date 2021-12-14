@@ -58,7 +58,6 @@ header nimi {
   background-position: center;
   text-align: center;
   color: white;
-  font-size: 24px;
   margin: auto;
   overflow: hidden;
 }
@@ -82,7 +81,7 @@ header nimi {
 }
 
 .welcome h1{
-  font-size: 22px;
+  font-size: 26px;
   text-align: center;
 
 }
@@ -92,7 +91,8 @@ header nimi {
 }
 
 #article {
-  float: left;
+  margin-top: 140px;
+  position: absolute;
   text-align: left;
   font-style: italic;
   padding-left: 30px;
